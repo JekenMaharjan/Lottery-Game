@@ -69,6 +69,13 @@ const LotteryGame = () => {
         })
     }
 
+    const resetGame = () => {
+        setLifeCount(3)
+        setRandomId([0, 0, 0])
+        setGameMsg("🎰 Welcome to the Lottery Game! You have 3 lives. Match all three to win!")
+        setRolling(false)
+    }
+
     return (
         <div className="bg-gradient-to-br from-purple-900 via-slate-900 to-black min-h-screen flex flex-col items-center justify-center">
             {/* Game message navbar */}
@@ -112,7 +119,10 @@ const LotteryGame = () => {
                 </button>
 
                 {/* Restart button */}
-                <button className="bg-red-500 hover:bg-red-600 px-6 py-2 rounded-xl text-lg font-semibold shadow-lg hover:scale-105 transition-transform cursor-pointer">
+                <button
+                onClick={resetGame}
+                className="bg-red-500 hover:bg-red-600 px-6 py-2 rounded-xl text-lg font-semibold shadow-lg hover:scale-105 transition-transform cursor-pointer"
+                >
                     🔄 Restart
                 </button>
             </div>
