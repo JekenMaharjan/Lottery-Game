@@ -66,7 +66,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-<img width="1567" height="924" alt="localhost_3001_" src="https://github.com/user-attachments/assets/2cd6ae7c-03d0-4b05-8c89-2af5217cf091" />
+![Screenshot_15-8-2025_104052_localhost](https://github.com/user-attachments/assets/81a45cbf-aabe-4281-b7c1-636b30d358cf)
 
 <img width="1180" height="924" alt="localhost_3001_ (1)" src="https://github.com/user-attachments/assets/72bdff76-e5de-4c39-9093-d40cf6d0fc22" />
 
