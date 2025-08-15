@@ -35,10 +35,10 @@ const LotteryGame = () => {
 
         setRolling(true)
         setGameMsg("🎲 Rolling...")
-        let results = [0, 0, 0]
+        const results = [0, 0, 0]
 
         randomId.forEach((_, slotIndex) => {
-            let interval = setInterval(() => {
+            const interval = setInterval(() => {
                 setRandomId(prev => {
                     const updated = [...prev]
                     updated[slotIndex] = Math.floor(Math.random() * items.length)
