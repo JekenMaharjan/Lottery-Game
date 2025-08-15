@@ -24,13 +24,13 @@ const LotteryGame = () => {
             </div>
 
             {/* Lever button */}
-            <button>
-                Lever
+            <button className="px-6 py-2 rounded-xl text-lg font-semibold shadow-lg transition-transform bg-green-500 hover:bg-green-600 hover:scale-105 cursor-pointer">
+                🎯 Pull Lever
             </button>
 
             {/* Restart button */}
-            <button>
-                Restart
+            <button className="bg-red-500 hover:bg-red-600 px-6 py-2 rounded-xl text-lg font-semibold shadow-lg hover:scale-105 transition-transform cursor-pointer">
+                🔄 Restart
             </button>
         </div>
     </div>
